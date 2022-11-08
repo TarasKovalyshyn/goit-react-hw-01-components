@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TarasKovalyshyn/goit-markup-hw-001/static/css/main.7acaea2f.css",
+    "main.js": "/TarasKovalyshyn/goit-markup-hw-001/static/js/main.07d3183d.js",
+    "index.html": "/TarasKovalyshyn/goit-markup-hw-001/index.html",
+    "main.7acaea2f.css.map": "/TarasKovalyshyn/goit-markup-hw-001/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/TarasKovalyshyn/goit-markup-hw-001/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
