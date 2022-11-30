@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './transactions.module.css'
+import css from './Transactions.module.css'
 export const Transactions = ({ items }) => {
   return (
     <div>

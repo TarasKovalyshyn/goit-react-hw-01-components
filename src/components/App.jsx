@@ -1,14 +1,15 @@
-import { Profile } from './userTask/User';
+import { Profile } from './ProfileTask/Profile';
 import user from '../data/user.json';
 
-import { Transactions } from './transactionsTask/transactions';
+import { Transactions } from './TransactionsTask/Transactions';
 import transactions from '../data/transactions.json';
 
+import { Statistics } from './StatisticsTask/Statistics';
 import statistics from 'data/statistics.json';
-import { Statistics } from './statisticsTask/statistics';
 
+import { Friends } from './FriendsTask/Friends';
 import friends from 'data/friends.json';
-import { Friends } from './friendsTask/friends';
+
 
 export default function App() {
   return (
