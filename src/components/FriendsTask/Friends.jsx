@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
 import css from './Friends.module.css'
+
 export const Friends = ({ items }) => {
   return (
     <ul>
-      {items.map(({ avatar, name, isOnline, id }) => (
+      {items.map(({ avatar, name, isOnline, id, }) => (
         <li className={css.item} key={id}>
           <span className={isOnline ? css.online : css.offline}>{isOnline}</span>
           <img className={css.avatar} src={avatar} alt={name} width="48" />

@@ -4,12 +4,11 @@ import user from '../data/user.json';
 import { Transactions } from './TransactionsTask/Transactions';
 import transactions from '../data/transactions.json';
 
-import { Statistics } from './StatisticsTask/Statistics';
-import statistics from 'data/statistics.json';
+import {Statistics} from './StatisticsTask/Statistics';
+import data from 'data/statistics.json';
 
 import { Friends } from './FriendsTask/Friends';
 import friends from 'data/friends.json';
-
 
 export default function App() {
   return (
@@ -22,10 +21,10 @@ export default function App() {
         stats={user.stats}
       />
       <Transactions items={transactions} />
-      <Statistics items={statistics} />
-      <Friends items={friends} />
+      <Statistics title="Upload stats" stats={data} />
+      <Statistics stats={data} />
 
-      
+      <Friends items={friends} />
     </>
   );
 }

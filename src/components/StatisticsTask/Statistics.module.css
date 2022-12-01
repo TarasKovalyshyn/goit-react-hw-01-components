@@ -14,7 +14,7 @@
     background: white;
     padding-left: 0;
   }
-  .stat-list {
+  .statList {
     display: flex;
   }
   .item {
@@ -26,12 +26,12 @@
   }
   .label {
     font-size: 10px;
-    color: #f3f3f3;
+    color: black;
     text-align: center;
   }
   .percentage {
     margin-top: 5px;
     font-size: 14px;
-    color: #f3f3f3;
+    color: black;
     text-align: center;
   }
